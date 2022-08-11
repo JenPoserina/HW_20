@@ -2,16 +2,16 @@
 <html>
     <head>
         <title> Casestudy</title>
-        <link rel="stylesheet" type="text/css" href="style/style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
 
     <body>
         <!--Navbar code-->
         <nav class="customNav navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+            <div class="customNav container-fluid">
               <a class="navbar-brand" href="#">Homework 20</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,28 +19,70 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="#">Case Study</a>
                   </li>
                   
               </div>
             </div>
-          </nav>
-         <!--Card Code-->
-          <div class="card" style="width: 18rem;">
-            <img src="images/Case Study Cover Image.png" class="card-img-top" alt="...">
+        </nav>
+        <!--End of Navigation-->
+
+        <!-- Jumbotron -->
+       <div class="jumbotron intro">
+         <div class="jumboCopy">
+            <img src="images/PCOS Logo.png">
+            <p class="lead">They are on a mission to raise public awareness about PCOS. To help people with the condition overcome their symptoms and reduce their risk for life-threatening related diseases such as diabetes, cardiovascular disease and cancer.</p>
+         </div>
+       </div>
+        <!-- End jumbotron -->
+
+        <!-- Cards -->
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Research</h2>
+      <div class="row research">
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card h-100">
+            <img src="images/show4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">PCOS Case Study</h5>
-              <p class="card-text">This case study was to redesign a non-profits website. View the case study to learn about the process.</p>
-              <a href="#" class="btn btn-primary">View Casestudy</a>
+              <h5 class="card-title">User Interviews</h5>
+              <p class="card-text">3 people were interviewed via Zoom. We asked participants about their interests and volunteer/donation habits, how they choose and engage with charities, and how they feel about their contributions. </p>
             </div>
           </div>
+        </div>
+        <!-- End card 1 -->
 
-          
-          <!--Script tag for Bootstrap JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <!-- Card 2 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card h-100">
+            <img src="images/show2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surveys</h5>
+              <p class="card-text">We recieved 12 Survey responses. We asked respondents about donation frequency, what qualities or actions they look for in charities, and the ways they contribute. </p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 2 -->
+
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card h-100">
+            <img src="images/show3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Insights</h5>
+              <p class="card-text"> Users volunteer mostly in their local areas, because they prefer to see how their efforts, both physically and monetarily, are making a difference for their communities.
+                Trust also is a key motivator for involvement.
+                The most shocking insight was donation frequency, we did not expect to see any weekly responses and monthly responses were slightly higher than expected.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 3 -->
+
+      </div>
+    </div>
+    <!-- End cards -->
+
     </body>
-
+  <!--Script tag for Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </html>

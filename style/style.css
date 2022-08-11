@@ -1,0 +1,56 @@
+
+.customNav{
+    font-weight: bold;
+    width: 100%;
+    background-size: cover;
+    z-index: 1;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.nav-item{
+    margin: 0px 15px;
+}
+.jumbotron{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jumboCopy{
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding: 50px;
+  }
+  .sectionHeading{
+    text-align: center;
+  }
+  .research{
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer{
+    text-align: center;
+  }
+  .valueProp{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .sideAccent{
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer{
+    padding: 50px;
+  }
+  .imageContainer img{
+    width: 100%;
+  }
